@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="Swinburne Sarawak" />
+<meta name="keywords" content="HTML5, tags" />
+<meta name="author" content="A Student" />
+<title> Swinburne Sarawak </title>
+</head>
+<body>
+
+<header>
+<a href="sarawak"><img src="sarawak.jpg" alt="Swinburne Sarawak Logo" title="SUTS_logo_horizontal" /></a>
+</header>
+
+<nav>
+   <ul>
+       <li><a href="https://www.swinburne.edu.my/contact" title="This link provides contact info"> Contact Us </a></li>
+	   <li><a href="https://www.swinburne.edu.my/hr" title="This link provides info about Jobs at Swinburne"> Jobs at Swinburne </a></li>
+	   <li><a href="https://www.swinburne.edu.au/copyright-disclaimer" title="This link provides info about coyright disclaimer"> Copyright and Disclaimer </a></li>
+	   <li><a href="https://www.swinburne.edu.my/?p=1295" title="This link provides info about privacy"> Privacy </a></li>
+   	   <li><a href="https://www.swinburne.edu.my/?p=1311" title="This link provides info about accessibility"> Accessibility </a></li>
+	   <li><a href="https://www.swinburne.edu.my/?p=1318" title="This link takes you to the Feedback section"> Feedback </a></li>
+       <li><a href="register.html" title="Click here to go to the Registration page"> Register </a></li>
+   </ul>
+</nav>
+
+<form id="detail" method="post">
+
+</form>
+
+<fieldset>
+   <legend> Personal Details: </legend>
+       <label for ="fname"> Name:</label><input type="text" pattern="[A-Za-z]" id="fname" name="fname" placeholder="Your name" required="required" />*<br/> 
+	   <label for ="femail"> Email:</label><input type="text" pattern="[A-Za-z]" id="femail" name="femail" placeholder="Your Email" required="required" /><br/>
+	   <label for ="fdob"> Date of birth: </label><input type="text" id="fdob" name="fdob"/><br/> 
+	   
+	  
+</fieldset>
+
+
+   <fieldset>
+      <legend>Your Unit:</legend>
+         <input type="radio" value="cos10011" checked>COS10011
+		 <input type="radio" value="cos60004">COS60004
+		 <input type="radio" value="cos60007">COS60007 <br/> 
+   
+       <label>Your Tutor:</label>
+       <select name="tutor">
+       <option selected>Tutor1</option>
+       <option>Tutor 2</option>
+       <option>Tutor 3</option>
+       <option>other</option>
+       </select>
+   </fieldset>
+   
+<fieldset>
+   <legend> Issue </legend>
+      <label><input type="checkbox" name="languages[]" value="html"/> HTML </label>
+	  <label><input type="checkbox" name="languages[]" value="javscrpt"/> JavaScript </label>
+	  <label><input type="checkbox" name="languages[]" value="css"/> CSS </label>
+	  <label><input type="checkbox" name="languages[]" value="php"/> PHP </label>
+	  <label><input type="checkbox" name="languages[]" value="mql"/> My SQL </label>
+	  <br/>
+	  
+<p><label> Description of Issue <br/>
+<textarea id= "issue" name= "issue" rows= "4" cols="20" placeholder= "Enter comments here">
+</textarea>
+</label></p>
+</fieldset>
+
+<fieldset>
+   <legend>Date and Time</legend>
+      <p><label> Date <input type="date" name="date"/></label></p>
+      <p><label> Time<input type="time" name="starttime"/></label></p>
+         </fieldset>
+		  
+<button type = "submit" value = "Submit">Register</button>
+<button type = "reset" value = "Reset">Reset</button>
+	   
+		 
+
+
+<footer>
+<br/> Posted by: Noor ul Ain Khurshid
+<br/> Contact info: <a href="mailto:noor_ua@yahoo.com" title="This link will take you to email"> noor_ua@yahoo.com </a>
+	
+</footer>
+
+
+
+
+</body>
